@@ -1,17 +1,11 @@
-package challenges
+package codeChallenge2
 
-/**
- * @author Peter Sommerhoff
- *
- * Solution for the looping challenge inside the Udemy course.
- * Calculates the sum of all numbers from 100 to 100,000.
- */
-fun main(args: Array<String>) {
+fun main() {
+    var sum: Long = 0
 
-    var sum = 0L
-    for (i in 100..100000L) {
-        sum += i
+    for (num in 100..100000) {
+        sum += num
     }
 
-    println(sum) // Result: 5000045050
+    println("sum of all numbers from 100 to 100,000 is $sum")
 }
