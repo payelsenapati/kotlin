@@ -1,13 +1,6 @@
-package challenges
+package codeChallenge3
 
-/**
- * @author Peter Sommerhoff
- *
- * Solution for the novice challenge inside the Udemy course.
- * Creates a list of book titles, loops over it and, if the title contains 'e', prints each char of the title in a line.
- */
-fun main(args: Array<String>) {
-
+fun main() {
     val myBookArrayList: ArrayList<String> = arrayListOf(
             "In Search of Lost Time",
             "Ulysses",
